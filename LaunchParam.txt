@@ -1,0 +1,1 @@
+./PalServer.sh -port=9100 -players=32 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS -DeathPanelty=All -ServerName="SFW J SUCK"
