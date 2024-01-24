@@ -5,7 +5,7 @@
 LOGFILE="./crash.log" 
  
 while true; do
-  ./PalServer.sh
+  ./PalServer.sh -port=9100 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS
   EXIT_STATUS=$? # Capture the exit status
  
   # Log the date, time, and exit status to the logfile
